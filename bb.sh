@@ -16,22 +16,22 @@ global_config=".config"
 # This function will load all the variables defined here. They might be overridden
 # by the 'global_config' file contents
 global_variables() {
-    global_software_name="BashBlog"
+    global_software_name="SoftwareBlog"
     global_software_version="2.10"
 
     # Blog title
-    global_title="My fancy blog"
+    global_title="SWBlog"
     # The typical subtitle for each blog
-    global_description="A blog about turtles and carrots"
+    global_description="A blog about software"
     # The public base URL for this blog
     global_url="http://example.com/blog"
 
     # Your name
-    global_author="John Smith"
+    global_author="Iwnas Filippou"
     # You can use twitter or facebook or anything for global_author_url
-    global_author_url="http://twitter.com/example" 
+#    global_author_url="http://twitter.com/example" 
     # Your email
-    global_email="john@smith.com"
+    global_email="p17fili@ionio.gr"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
     global_license="CC by-nc-nd"
